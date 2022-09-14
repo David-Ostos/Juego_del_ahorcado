@@ -1,6 +1,8 @@
-html{
+body{
 
-    width: auto;
+    width: 1440px;
+    height: 1024px;
+    background-image: radial-gradient(circle at 11.01% -5.68%, #a0b9e1 0, #356da9 50%, #002b73 100%);
 }
 
 #logo-1{
@@ -12,10 +14,13 @@ html{
 }
 
 .botones{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     gap: 38px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
   
 }
@@ -25,16 +30,37 @@ html{
     width: 317px;
     height: 114px;
     margin: auto;
-    position: absolute;
     border-radius: 24px;
-
-
+    background-color: #0A3871;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all 400ms;
+    padding: 24px;
 
 }
 
+.boton_ini:hover {
 
+    transform: scale(1.05);
+}
 
+.boton_agg {
 
+    background-color: #ffffff;
+    font-size: 15px;
+     width: 280px ;
+     height: 67px ;
+     border-radius: 24px;
+     margin: auto;
+     transition: all 400ms;
+     padding: 24px;
+
+}
+
+.boton_agg:hover {
+
+    transform: scale(1.05);
+}
 
 
 
