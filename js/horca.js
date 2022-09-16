@@ -15,5 +15,7 @@ function escojerPalabraSecreta (){
 function iniciarJuego(){
 
     document.getElementById("desaparece").style.display = "none";
+    
     escojerPalabraSecreta ();
+    dibujarCanvas()
 }
