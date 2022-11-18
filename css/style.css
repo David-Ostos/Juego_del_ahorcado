@@ -1,7 +1,6 @@
 body{
 
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
     background-image: radial-gradient(circle at 11.01% -5.68%, #a0b9e1 0, #356da9 50%, #002b73 100%);
 }
 
@@ -66,12 +65,82 @@ body{
     transform: scale(1.05);
 }
 
+.botones-div-canvas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 4rem;
+    top: 20rem;
+
+
+}
+
+.palabra-nueva{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-input{
+    background: transparent;
+    border: none;
+    padding: 2rem;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.text-input::placeholder{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.img-alerta{
+background: red;
+/* color: black; */
+border: 1px solid red;
+border-radius: 100%;
+}
+.btn-azul{
+    background-color: #0A3871;
+    padding: 1.2rem 3rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #fdfdfd;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 2rem 2rem;
+    transition: all 500ms;
+    
+
+}
+.btn-azul:hover{
+    transform: scale(1.2);
+}
+
+.btn-blanco{
+    background-color: #fdfdfd;
+    padding: 1.2rem 3rem;
+    border: 1px solid #00000099;
+    border-radius: 5px;
+    color: #0A3871;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.btn-blanco:hover{
+    transform: scale(1.2);
+}
+
 .Rodapie{
-    /*display: flex;
-    flex-direction: row;*/
-    width: 100%;
-    position:absolute; 
-    bottom: -35%; 
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
     background-color: #0A3871;
 }
 
