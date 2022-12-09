@@ -69,7 +69,7 @@ function dibujarAhorcado(puntaje) {
     tablero.lineWidth=8
     tablero.lineCap="round"
     tablero.lineJoin="round"
-    tablero.strokeStyle = "#0A3871"
+    tablero.strokeStyle = "#000000"
     if(puntaje===8){/*poste */
         tablero.moveTo(700,500)
         tablero.lineTo(700,100)
